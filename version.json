@@ -2,6 +2,6 @@
   "version": "v2.0.2",
   "versionCode": 202,
   "changelog": "1. 修复到期时间不刷新\n2. 新增远程版本公告",
-  "url": "https://github.com/你的用户名/ace-guard/releases/download/v2.0.2/ace_guard.zip",
+  "url": "https://github.com/l2936923620a-coder/ACE-guard/blob/main/ace_guard.zip",
   "force": false
 }
