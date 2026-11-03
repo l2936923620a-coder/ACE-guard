@@ -1,7 +1,9 @@
 {
   "version": "v2.0.2",
   "versionCode": 202,
-  "changelog": "1. 修复到期时间不刷新\n2. 新增远程版本公告",
-  "url": "https://github.com/l2936923620a-coder/ACE-guard/blob/main/ace_guard.zip",
-  "force": false
+  "minAllowed": 201,
+  "killBelow": 200,
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard.zip",
+  "changelog": "1. 修复到期时间不刷新\n2. 新增远程版本公告\n3. 新增签名校验",
+  "sig": "3cf9251511a7a70a"
 }
