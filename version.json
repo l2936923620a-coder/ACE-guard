@@ -1,8 +1,8 @@
 {
-  "version": "v2.4.4",
-  "versionCode": 244,
+  "version": "v2.4.5",
+  "versionCode": 245,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.3.zip",
-  "changelog": "1. 修复首屏与主界面配色断层\n2. 修复版本监控被误杀导致更新失效\n3. 新增监控自愈机制"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.4.zip",
+  "changelog": "1. 修复更新弹窗被启动屏遮挡\n2. 修复监控进程重复启动\n3. 清理无用代码"
 }
