@@ -1,9 +1,8 @@
 {
-  "version": "v2.2.8",
-  "versionCode": 228,
-  "minAllowed": 228,
-  "killBelow": 228,
-  "url": "https://github.com/l2936923620a-coder/ACE-guard/blob/main/ace_guard_v2.2.7.zip",
-  "changelog": "1. 新增进程唯一性保护，防止重复启动叠加\n2. 修复 setsid 后台进程无法被清理的问题\n3. 并发启动时可正确收敛为单实例",
-  "sig": "9bb06722d8739330"
+  "version": "v2.4.0",
+  "versionCode": 240,
+  "minAllowed": 201,
+  "killBelow": 200,
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.0.zip",
+  "changelog": "1. 更新源改为程序内置，无法通过修改配置更改\n2. 版本检测改为直接对比，不再依赖清单签名\n3. 本地版本被修改时自动回退"
 }
