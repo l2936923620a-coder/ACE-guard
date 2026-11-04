@@ -1,9 +1,9 @@
 {
-  "version": "v2.0.2",
-  "versionCode": 202,
+  "version": "v2.2.0",
+  "versionCode": 220,
   "minAllowed": 201,
   "killBelow": 200,
   "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard.zip",
-  "changelog": "1. 修复到期时间不刷新\n2. 新增远程版本公告\n3. 新增签名校验",
-  "sig": "3cf9251511a7a70a"
+  "changelog": "1. 核心功能改为本地运行程序，重要逻辑不再以明文脚本保存\n2. 配置文件加密保存，游戏相关规则不再明文可见\n3. 授权校验增强，识别异常授权\n4. 运行效率提升",
+  "sig": "d99257064724d6a7"
 }
