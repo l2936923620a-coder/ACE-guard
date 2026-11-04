@@ -1,8 +1,8 @@
 {
-  "version": "v2.4.0",
-  "versionCode": 240,
+  "version": "v2.4.1",
+  "versionCode": 241,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.0.zip",
-  "changelog": "1. 更新源改为程序内置，无法通过修改配置更改\n2. 版本检测改为直接对比，不再依赖清单签名\n3. 本地版本被修改时自动回退"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.1.zip",
+  "changelog": "1. 新增启动动画，进入模块不再白屏等待\n2. 加载过程显示阶段提示与进度\n3. 异常时自动跳过，不会卡住"
 }
