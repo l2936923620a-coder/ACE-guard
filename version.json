@@ -1,8 +1,8 @@
 {
-  "version": "v2.4.5",
-  "versionCode": 245,
+  "version": "v2.4.6",
+  "versionCode": 246,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.4.zip",
-  "changelog": "1. 修复更新弹窗被启动屏遮挡\n2. 修复监控进程重复启动\n3. 清理无用代码"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.6.zip",
+  "changelog": "1. 清理全部脚本注释，只保留功能说明\n2. 修复打包漏排除 _snapshot 导致包体积翻倍\n3. 修复发布包 description 状态前缀清理失效"
 }
