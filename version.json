@@ -1,8 +1,8 @@
 {
-  "version": "v2.4.7",
-  "versionCode": 247,
+  "version": "v2.4.8",
+  "versionCode": 248,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.6.zip",
-  "changelog": "1. 清理全部脚本注释，只保留功能说明\n2. 修复打包漏排除 _snapshot 导致包体积翻倍\n3. 修复发布包 description 状态前缀清理失效"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.8.zip",
+  "changelog": "1. 修复更新检测失效：无本地版本清单时不再直接判定为已最新\n2. 修复版本监控进程未启动导致永远检测不到更新\n3. 修复冻结死循环：已冻结且远程版本未变时不再重复终止进程\n4. 修复正常升级被误判为篡改而回退版本号\n5. 修复核心程序与脚本安装后丢失执行权限\n6. 修复打包遗漏 log 目录导致日志无法写入"
 }
