@@ -1,8 +1,8 @@
 {
-  "version": "v2.4.1",
-  "versionCode": 241,
+  "version": "v2.4.3",
+  "versionCode": 243,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.1.zip",
-  "changelog": "1. 新增启动动画，进入模块不再白屏等待\n2. 加载过程显示阶段提示与进度\n3. 异常时自动跳过，不会卡住"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.2.zip",
+  "changelog": "1. 启动动画提前到首屏，覆盖白屏等待\n2. 修复旧进程导致的签名错误日志\n3. 清理残留日志文件"
 }
