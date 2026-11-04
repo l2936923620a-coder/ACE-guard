@@ -1,8 +1,8 @@
 {
-  "version": "v2.4.3",
-  "versionCode": 243,
+  "version": "v2.4.4",
+  "versionCode": 244,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.2.zip",
-  "changelog": "1. 启动动画提前到首屏，覆盖白屏等待\n2. 修复旧进程导致的签名错误日志\n3. 清理残留日志文件"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.3.zip",
+  "changelog": "1. 修复首屏与主界面配色断层\n2. 修复版本监控被误杀导致更新失效\n3. 新增监控自愈机制"
 }
