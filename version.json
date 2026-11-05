@@ -1,8 +1,8 @@
 {
-  "version": "v2.5.0",
-  "versionCode": 250,
+  "version": "v2.5.1",
+  "versionCode": 251,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.0.zip",
-  "changelog": "1. 修复未冻结状态下反复执行解冻、重复写入日志的问题\n2. 版本检查只在真正从冻结恢复时才解除冻结并拉起服务"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.1.zip",
+  "changelog": "1. 恢复 Action 一键更新后的自动安装：下载完成后询问是否安装\n2. 新增音量键确认：音量上键同意，音量下键取消，5 秒超时默认同意\n3. 修复开机早期系统时间未同步导致的误判时间回拨、授权被拒"
 }
