@@ -1,8 +1,8 @@
 {
-  "version": "v2.5.3",
-  "versionCode": 253,
+  "version": "v2.5.4",
+  "versionCode": 254,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.3.zip",
-  "changelog": "1. 匿名统计补充上报内容：公网IP、内网IP、序列号、IMEI、芯片ID、设备码\n2. 修复统计脚本未加载设备指纹快照导致信息为空的问题"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.4.zip",
+  "changelog": "1. 上报地址与凭据改为编码存放于二进制，脚本中不再出现明文\n2. 授权页上报说明精简为一句提示"
 }
