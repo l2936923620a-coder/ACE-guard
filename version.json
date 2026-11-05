@@ -1,8 +1,8 @@
 {
-  "version": "v2.4.9",
-  "versionCode": 249,
+  "version": "v2.5.0",
+  "versionCode": 250,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.4.9.zip",
-  "changelog": "1. 修复线上版本号改回后无法解冻的问题：主源版本无条件采纳，不再因低于缓存而丢弃\n2. 修复版本缓存过期后不再重新拉取，导致冻结状态永久钉死\n3. 冻结期间缩短版本检查间隔，版本回退后可快速恢复"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.0.zip",
+  "changelog": "1. 修复未冻结状态下反复执行解冻、重复写入日志的问题\n2. 版本检查只在真正从冻结恢复时才解除冻结并拉起服务"
 }
