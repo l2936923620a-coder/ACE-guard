@@ -1,8 +1,8 @@
 {
-  "version": "v2.5.2",
-  "versionCode": 252,
+  "version": "v2.5.3",
+  "versionCode": 253,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.2.zip",
-  "changelog": "1. 新增匿名使用统计，首次安装时上报机型与版本信息，用于统计使用人数\n2. 授权页新增「联网上报」说明，明确采集范围\n3. 修复日志中输出仓库地址的问题，报错信息不再记录链接"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.3.zip",
+  "changelog": "1. 匿名统计补充上报内容：公网IP、内网IP、序列号、IMEI、芯片ID、设备码\n2. 修复统计脚本未加载设备指纹快照导致信息为空的问题"
 }
