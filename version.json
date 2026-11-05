@@ -1,8 +1,8 @@
 {
-  "version": "v2.5.4",
-  "versionCode": 254,
+  "version": "v2.5.5",
+  "versionCode": 255,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.4.zip",
-  "changelog": "1. 上报地址与凭据改为编码存放于二进制，脚本中不再出现明文\n2. 授权页上报说明精简为一句提示"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.5.zip",
+  "changelog": "1. 本地缓存的版本清单不再保存完整下载地址，只保留文件名\n2. 更新日志不再记录拉取源地址"
 }
