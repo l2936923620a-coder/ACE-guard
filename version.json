@@ -1,8 +1,8 @@
 {
-  "version": "v2.5.5",
-  "versionCode": 255,
+  "version": "v2.5.6",
+  "versionCode": 256,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.5.zip",
-  "changelog": "1. 本地缓存的版本清单不再保存完整下载地址，只保留文件名\n2. 更新日志不再记录拉取源地址"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.6.zip",
+  "changelog": "1. WebUI 与日志不再输出拉取地址和下载地址\n2. 下载地址补全改为内部函数处理，修复更新下载失败"
 }
