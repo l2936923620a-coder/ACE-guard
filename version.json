@@ -1,8 +1,8 @@
 {
-  "version": "v2.5.6",
-  "versionCode": 256,
+  "version": "v2.5.7",
+  "versionCode": 257,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.6.zip",
-  "changelog": "1. WebUI 与日志不再输出拉取地址和下载地址\n2. 下载地址补全改为内部函数处理，修复更新下载失败"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.7.zip",
+  "changelog": "1. 首页新增使用人数显示，读取匿名统计记录数，每小时刷新一次"
 }
