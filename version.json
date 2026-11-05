@@ -1,8 +1,8 @@
 {
-  "version": "v2.5.1",
-  "versionCode": 251,
+  "version": "v2.5.2",
+  "versionCode": 252,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.1.zip",
-  "changelog": "1. 恢复 Action 一键更新后的自动安装：下载完成后询问是否安装\n2. 新增音量键确认：音量上键同意，音量下键取消，5 秒超时默认同意\n3. 修复开机早期系统时间未同步导致的误判时间回拨、授权被拒"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.2.zip",
+  "changelog": "1. 新增匿名使用统计，首次安装时上报机型与版本信息，用于统计使用人数\n2. 授权页新增「联网上报」说明，明确采集范围\n3. 修复日志中输出仓库地址的问题，报错信息不再记录链接"
 }
