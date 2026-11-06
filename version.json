@@ -1,8 +1,8 @@
 {
-  "version": "v2.5.7",
-  "versionCode": 257,
+  "version": "v2.5.8",
+  "versionCode": 258,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.7.zip",
-  "changelog": "1. 首页新增使用人数显示，读取匿名统计记录数，每小时刷新一次"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.8.zip",
+  "changelog": "1. 守护进程改为在隐藏目录运行，命令行不再暴露模块路径\n2. 进程启动改用原子锁，从源头避免重复实例\n3. 卸载时自动清理隐藏运行目录"
 }
