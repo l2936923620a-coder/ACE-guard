@@ -4,5 +4,5 @@
   "minAllowed": 201,
   "killBelow": 200,
   "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.5.9.zip",
-  "changelog": "1. 新增扩展隐藏层，五项能力可在界面独立开关\n2. 全机路径隐藏：按原样移植，逐条用空文件覆盖敏感路径\n3. 图层叠加隐藏：修正上下层未分离与工作区文件系统不兼容的问题，现已能真实挂载并遮蔽 /data/adb/ksu 等路径\n4. 调用过滤、命名空间隔离、进程伪文件：按原样移植，可独立开关\n5. 五项开关均带自检与日志，界面即时生效不需重启"
+  "changelog": "1. 新增游戏包名：无畏契约源能行动、王者荣耀\n2. 修复全机隐藏对 overlay 路径挂载失败的问题\n3. 修复目录型路径用空文件 bind 导致的 I/O 错误"
 }
