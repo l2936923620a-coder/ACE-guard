@@ -1,8 +1,8 @@
 {
-  "version": "v2.8.3",
-  "versionCode": 283,
+  "version": "v2.9.0",
+  "versionCode": 290,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.8.3.zip",
-  "changelog": "1. 进程伪文件优化：先判断游戏是否运行，无游戏直接跳过\n2. 再探测 /proc/<pid>/ 下 deny、hide_path、environ 三个节点是否真实存在\n3. 节点存在才写入，不存在直接跳过，不再产生无效写入和报错\n4. 修正 environ 可写判断，按实际权限位判断而非 root 下的恒真结果\n5. 日志明确区分「写入N项」与「节点均不存在，本轮跳过」"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.9.0.zip",
+  "changelog": "1. 全机隐藏优化：路径不存在直接跳过，改用空目录绑定，全部记录可还原\n2. 图层叠加优化：每次挂载前先彻底清理旧层叠与工作区，杜绝叠加残留\n3. 调用过滤改为仅在游戏运行时探测接口，内核未导出则跳过不再刷错误\n4. 命名空间隔离改为仅在游戏运行时进入其命名空间，用空目录绑定可写路径\n5. 修正只读分区无法绑定导致失败的问题，实测游戏视角 /data/adb/ksu 已隐藏"
 }
