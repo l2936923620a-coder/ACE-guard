@@ -1,8 +1,8 @@
 {
-  "version": "v2.8.2",
-  "versionCode": 282,
+  "version": "v2.8.3",
+  "versionCode": 283,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.8.2.zip",
-  "changelog": "1. 修复游戏运行时模块识别不到进程的问题（包名表解析错误导致 pidof 查不到）\n2. 修复游戏退出后遮蔽挂载还原不彻底的问题\n3. 解挂改为先普通卸载再惰性卸载，实测一次即可清干净\n4. 配置改为随包携带，避免升级后配置文件丢失导致功能失效\n5. 支持五款游戏，界面显示真实图标"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.8.3.zip",
+  "changelog": "1. 进程伪文件优化：先判断游戏是否运行，无游戏直接跳过\n2. 再探测 /proc/<pid>/ 下 deny、hide_path、environ 三个节点是否真实存在\n3. 节点存在才写入，不存在直接跳过，不再产生无效写入和报错\n4. 修正 environ 可写判断，按实际权限位判断而非 root 下的恒真结果\n5. 日志明确区分「写入N项」与「节点均不存在，本轮跳过」"
 }
