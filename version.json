@@ -1,8 +1,8 @@
 {
-  "version": "v2.9.0",
-  "versionCode": 290,
+  "version": "v2.9.2",
+  "versionCode": 292,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.9.0.zip",
-  "changelog": "1. 全机隐藏优化：路径不存在直接跳过，改用空目录绑定，全部记录可还原\n2. 图层叠加优化：每次挂载前先彻底清理旧层叠与工作区，杜绝叠加残留\n3. 调用过滤改为仅在游戏运行时探测接口，内核未导出则跳过不再刷错误\n4. 命名空间隔离改为仅在游戏运行时进入其命名空间，用空目录绑定可写路径\n5. 修正只读分区无法绑定导致失败的问题，实测游戏视角 /data/adb/ksu 已隐藏"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.9.2.zip",
+  "changelog": "1. 修复管理器隐藏导致应用打不开的问题：隐藏前不再清空记录，已挂载路径自动补记\n2. 新增兜底还原：即使记录文件丢失，也能扫描挂载表把管理器目录全部还原\n3. 新增强力解挂：普通卸载失败时自动进 init 命名空间卸载\n4. 自检新增「管理器隐藏」项，区分游戏运行中已隐藏与无游戏保持可见\n5. 管理器隐藏仅在游戏运行期间生效，游戏退出立即恢复"
 }
