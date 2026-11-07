@@ -1,8 +1,8 @@
 {
-  "version": "v2.6.1",
-  "versionCode": 261,
+  "version": "v2.7.0",
+  "versionCode": 270,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.6.1.zip",
-  "changelog": "1. 扩展隐藏层五项默认改为开启，重启后自动生效\n2. 全机路径隐藏：与源脚本逐行一致的移植，失败不跳过、不规避\n3. 图层叠加隐藏：修正上下层未分离与工作区文件系统不兼容的问题，现已能真实挂载并遮蔽 /data/adb/ksu 等路径\n4. 调用过滤、命名空间隔离、进程伪文件：按原样移植，可独立开关\n5. 五项开关均带自检与日志，界面即时生效不需重启"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.7.0.zip",
+  "changelog": "1. 新增四款游戏支持：和平精英 / 三角洲行动 / 使命召唤手游 / 王者荣耀，运行任意一款全部功能都会触发\n2. 游戏检测从单包名改为多包名轮询，状态缓存记录当前命中的包名\n3. 目录遮蔽、配置伪装、下发监控、痕迹清理、悬空挂载清扫全部覆盖四款游戏的数据目录\n4. 界面右上角改为四枚游戏图标常驻显示，运行中的那款自动点亮，表示支持四种游戏\n5. 扩展隐藏层五项开关默认开启，重启自动生效"
 }
