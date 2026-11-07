@@ -1,8 +1,8 @@
 {
-  "version": "v2.8.0",
-  "versionCode": 280,
+  "version": "v2.8.2",
+  "versionCode": 282,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.8.0.zip",
-  "changelog": "1. 界面右上角改为五款游戏的真实 App 图标，运行中的那款自动点亮\n2. 支持五款游戏：和平精英 / 三角洲行动 / 无畏契约 / 王者荣耀 / 使命召唤手游\n3. 运行任意一款，目录遮蔽、配置伪装、下发监控、痕迹清理全部自动触发\n4. 游戏检测改为多包名轮询，状态缓存记录当前命中的包名\n5. 图标随模块内置，不依赖网络，离线也可正常显示"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.8.2.zip",
+  "changelog": "1. 修复游戏运行时模块识别不到进程的问题（包名表解析错误导致 pidof 查不到）\n2. 修复游戏退出后遮蔽挂载还原不彻底的问题\n3. 解挂改为先普通卸载再惰性卸载，实测一次即可清干净\n4. 配置改为随包携带，避免升级后配置文件丢失导致功能失效\n5. 支持五款游戏，界面显示真实图标"
 }
