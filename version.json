@@ -1,8 +1,8 @@
 {
-  "version": "v3.0.2",
-  "versionCode": 302,
+  "version": "v3.0.3",
+  "versionCode": 303,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v3.0.2.zip",
-  "changelog": "1. 更新统计上报凭据，修复使用人数一直显示 0 的问题\n2. 统计接口异常时不再把错误码当成 0 写入缓存\n3. 保留 v3.0.1 的界面优化：按压反馈、振动、失效开关清理"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v3.0.3.zip",
+  "changelog": "1. 修复界面切换卡顿：自检与诊断结果加入缓存，自检 3.0秒降到 0.9秒，诊断 3.4秒降到 0.5秒\n2. 写操作自动清空缓存，保证数据始终最新\n3. 移除「守护进程」自检项：单进程模式下已无意义\n4. 移除「网络层」自检项：该功能已删除\n5. 自检项从 13 项精简到 11 项"
 }
