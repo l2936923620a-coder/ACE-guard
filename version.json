@@ -1,8 +1,8 @@
 {
-  "version": "v3.0.3",
-  "versionCode": 303,
+  "version": "v3.0.4",
+  "versionCode": 304,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v3.0.3.zip",
-  "changelog": "1. 修复界面切换卡顿：自检与诊断结果加入缓存，自检 3.0秒降到 0.9秒，诊断 3.4秒降到 0.5秒\n2. 写操作自动清空缓存，保证数据始终最新\n3. 移除「守护进程」自检项：单进程模式下已无意义\n4. 移除「网络层」自检项：该功能已删除\n5. 自检项从 13 项精简到 11 项"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v3.0.4.zip",
+  "changelog": "1. 守护线程卡片改为只显示真实运行的进程：主服务、监控循环、授权文案、缓存预热、统一调度器\n2. 已不存在的遮蔽生命周期、守护反制、配置校验、后台维护四项不再显示\n3. 卡片说明改为「所有功能由统一调度器按需执行，不再每类功能单独开进程」\n4. 自检与诊断结果加缓存，页面切换明显更快"
 }
