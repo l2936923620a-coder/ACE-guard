@@ -1,8 +1,8 @@
 {
-  "version": "v2.9.4",
-  "versionCode": 294,
+  "version": "v2.9.5",
+  "versionCode": 295,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.9.4.zip",
-  "changelog": "1. 移除管理器目录隐藏功能：该功能会把自己依赖的 ksu 工具挂空，导致 resetprop、ksud 失效，模块自身功能连带出问题\n2. 清理相关代码：隐藏函数、生命周期调用、自检项全部移除\n3. 扩展项保留四项：全机隐藏、图层隐藏、调用过滤、进程伪文件\n4. 管理器目录不再被挂载，KSU 管理器可正常打开使用"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.9.5.zip",
+  "changelog": "1. 从隐藏列表中移除 /data/adb/ksu，不再隐藏自身依赖的 ksu 工具\n2. resetprop、ksud、busybox 保持可用，指纹伪造与配置读写功能不受影响\n3. 全机隐藏、图层隐藏、调用过滤、进程伪文件四项默认全开\n4. 管理器目录隐藏功能已移除"
 }
