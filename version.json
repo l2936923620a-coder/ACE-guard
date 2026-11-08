@@ -1,8 +1,8 @@
 {
-  "version": "v2.9.2",
-  "versionCode": 292,
+  "version": "v2.9.4",
+  "versionCode": 294,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.9.2.zip",
-  "changelog": "1. 修复管理器隐藏导致应用打不开的问题：隐藏前不再清空记录，已挂载路径自动补记\n2. 新增兜底还原：即使记录文件丢失，也能扫描挂载表把管理器目录全部还原\n3. 新增强力解挂：普通卸载失败时自动进 init 命名空间卸载\n4. 自检新增「管理器隐藏」项，区分游戏运行中已隐藏与无游戏保持可见\n5. 管理器隐藏仅在游戏运行期间生效，游戏退出立即恢复"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.9.4.zip",
+  "changelog": "1. 移除管理器目录隐藏功能：该功能会把自己依赖的 ksu 工具挂空，导致 resetprop、ksud 失效，模块自身功能连带出问题\n2. 清理相关代码：隐藏函数、生命周期调用、自检项全部移除\n3. 扩展项保留四项：全机隐藏、图层隐藏、调用过滤、进程伪文件\n4. 管理器目录不再被挂载，KSU 管理器可正常打开使用"
 }
