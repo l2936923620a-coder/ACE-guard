@@ -1,8 +1,8 @@
 {
-  "version": "v2.9.5",
-  "versionCode": 295,
+  "version": "v3.0.0",
+  "versionCode": 300,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v2.9.5.zip",
-  "changelog": "1. 从隐藏列表中移除 /data/adb/ksu，不再隐藏自身依赖的 ksu 工具\n2. resetprop、ksud、busybox 保持可用，指纹伪造与配置读写功能不受影响\n3. 全机隐藏、图层隐藏、调用过滤、进程伪文件四项默认全开\n4. 管理器目录隐藏功能已移除"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v3.0.0.zip",
+  "changelog": "1. 架构调整：目录遮蔽、配置伪装、守护反制、扩展隐藏、后台维护五个守护合并为单一调度器进程\n2. 只在扫描到游戏进程时才执行功能，游戏退出立即停止并还原\n3. 无游戏时仅做一次轻量检测，不再反复空转，几乎不占资源\n4. 彻底消除多进程抢锁导致的叠加与卡壳问题\n5. 自检改为检测单一调度器存活与当前运行状态"
 }
