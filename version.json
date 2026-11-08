@@ -1,8 +1,8 @@
 {
-  "version": "v3.0.1",
-  "versionCode": 301,
+  "version": "v3.0.2",
+  "versionCode": 302,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v3.0.1.zip",
-  "changelog": "1. 移除失效开关：网络层阻断（功能已不存在）、监控主循环（与调度器重复）\n2. 修复使用统计误报：接口异常时不再把 401 当成 0 写缓存，改为显示不可用\n3. 缓存有效期从 1 小时缩短到 10 分钟\n4. 修复自检误报：无游戏时图层隐藏显示「待命中」而不是失败\n5. 界面新增按压反馈：按钮按下缩放变暗，并伴随系统振动"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v3.0.2.zip",
+  "changelog": "1. 更新统计上报凭据，修复使用人数一直显示 0 的问题\n2. 统计接口异常时不再把错误码当成 0 写入缓存\n3. 保留 v3.0.1 的界面优化：按压反馈、振动、失效开关清理"
 }
