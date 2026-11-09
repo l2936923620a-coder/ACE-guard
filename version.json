@@ -1,8 +1,8 @@
 {
-  "version": "v3.0.4",
-  "versionCode": 304,
+  "version": "v3.0.5",
+  "versionCode": 305,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v3.0.4.zip",
-  "changelog": "1. 守护线程卡片改为只显示真实运行的进程：主服务、监控循环、授权文案、缓存预热、统一调度器\n2. 已不存在的遮蔽生命周期、守护反制、配置校验、后台维护四项不再显示\n3. 卡片说明改为「所有功能由统一调度器按需执行，不再每类功能单独开进程」\n4. 自检与诊断结果加缓存，页面切换明显更快"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v3.0.5.zip",
+  "changelog": "1. 修复配置伪装在游戏退出后残留挂载的问题：由于挂载挂在系统命名空间上，模块自身卸载不掉，现在改为进入系统命名空间清理\n2. 自检发现配置伪装残留时会自动清理，不再只是报错\n3. 游戏退出、开机启动时都会先清一次配置伪装的残留挂载\n4. 配置伪装的挂载状态统计改用系统视角，界面显示与实际一致\n5. 加锁前会完整摘除重复挂载，不再叠加"
 }
