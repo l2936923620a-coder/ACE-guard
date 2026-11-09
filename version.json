@@ -1,8 +1,8 @@
 {
-  "version": "v3.0.5",
-  "versionCode": 305,
+  "version": "v3.0.6",
+  "versionCode": 306,
   "minAllowed": 201,
   "killBelow": 200,
-  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v3.0.5.zip",
-  "changelog": "1. 修复配置伪装在游戏退出后残留挂载的问题：由于挂载挂在系统命名空间上，模块自身卸载不掉，现在改为进入系统命名空间清理\n2. 自检发现配置伪装残留时会自动清理，不再只是报错\n3. 游戏退出、开机启动时都会先清一次配置伪装的残留挂载\n4. 配置伪装的挂载状态统计改用系统视角，界面显示与实际一致\n5. 加锁前会完整摘除重复挂载，不再叠加"
+  "url": "https://raw.githubusercontent.com/l2936923620a-coder/ACE-guard/main/ace_guard_v3.0.6.zip",
+  "changelog": "1. 模块整体改用系统自带运行环境，不再依赖模块目录下的工具\n2. 后台进程的系统占用更低，长时间运行更稳定\n3. 开机后模块自动切换到系统环境，无需任何设置\n4. 安装包校验改用系统自带解压工具，校验更准确\n5. 功能与之前完全一致"
 }
